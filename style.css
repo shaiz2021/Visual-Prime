@@ -34,8 +34,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
-    box-shadow: 0 10px 10px 0 rgb(182, 159, 159);
+    background: linear-gradient(to right, #f4f2f2, #cbd1d0);
+    box-shadow: 0 10px 10px 0 rgb(225, 211, 211);
     padding: 12px 13%;
     border-bottom: 1px solid transparent;
     transition: all .40 ease;
@@ -472,7 +472,7 @@ header.sticky {
         left: 0;
         display: flex;
         flex-direction: column;
-        background: linear-gradient(to right, #e2caca, #9dede0bf);
+        background: linear-gradient(to right, #f4f2f2, #cbd1d0);
         text-align: left;
         transition: all .40s ease;
     }
